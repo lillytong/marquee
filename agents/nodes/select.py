@@ -1,6 +1,6 @@
 """Talent selection (Haiku): pick the single best-fit talent, in-context over the whole roster.
 
-No RAG here — 50 compact bios fit in context. Weighs demonstrated AND affinity fit.
+No RAG here: the whole roster of compact bios fits in context. Weighs demonstrated AND affinity fit.
 """
 
 from __future__ import annotations

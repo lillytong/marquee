@@ -27,6 +27,9 @@ from models.domain import (  # noqa: E402
 )
 
 SEED = 42
+# Assumed solo-agency roster size for the demo seed. Not an app constraint: the agent ranks
+# whatever roster is loaded (see the README "Roster-size assumption").
+N_TALENTS = 50
 OUT = ROOT / "data" / "mock"
 
 # Shared theme vocabulary so talents, works, brands, and pitches connect semantically.
@@ -275,7 +278,7 @@ def generate() -> AgencyDataset:
     categories = list(CATEGORIES)
 
     talents: list[Talent] = []
-    for i in range(50):
+    for i in range(N_TALENTS):
         name = names[i]
         category = rng.choice(categories)
         t_themes = rng.sample(theme_keys, k=rng.choice([2, 3]))
@@ -337,7 +340,7 @@ def generate() -> AgencyDataset:
         brands.append(Brand(id=bid, name=bname, industry=industry, pillars=pillars))
         for _ in range(rng.choice([1, 2])):
             role = rng.choice(list(TITLES))
-            cname = names[50 + cidx]
+            cname = names[N_TALENTS + cidx]
             first, last = cname.split(" ", 1)
             contacts.append(
                 Contact(

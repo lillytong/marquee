@@ -87,7 +87,7 @@ mechanism, not RAG-for-everything:
 
 | Source | Question it answers | Mechanism |
 |--------|--------------------|-----------|
-| Talent selection | *Which* of the 50 talents fits this brand? | In-context ranking over compact bios (no RAG at 50) |
+| Talent selection | *Which* roster talent fits this brand? | In-context ranking over compact bios (whole roster fits in context, so no RAG) |
 | Account memory | What do we know about *this* brand/contact? | Exact `brand_id` lookup + running account brief (Plane 2) |
 | Experiential (#1) | What *past pitch* won in a *similar* situation? | Semantic RAG over past pitches + outcomes (Plane 3) |
 | Proof-points (#2) | What of the chosen talent's *work* proves the fit? | Semantic RAG over that talent's archive (Plane 3) |
@@ -96,7 +96,7 @@ mechanism, not RAG-for-everything:
 
 A two-stage match, ordered deliberately:
 
-1. **Select (in-context, all 50).** Rank the roster against the brand's durable pillars on
+1. **Select (in-context, whole roster).** Rank the roster against the brand's durable pillars on
    **two fit signals**: *demonstrated* fit (relevant past work) and *affinity* fit (stated
    interests, values, positioning, e.g. an eco-ambassador for a sustainability brand).
    Affinity matters because a talent can be the *best* fit on values alone, with no matching
@@ -104,6 +104,13 @@ A two-stage match, ordered deliberately:
    a perfect-affinity talent whose archive returns zero hits).
 2. **Prove (#2, scoped to the chosen talent).** *Then* retrieve that talent's specific work
    supporting the angle, to cite real evidence instead of adjectives.
+
+> **Roster-size assumption.** The agent ranks the *entire* roster in context (it iterates
+> whatever `list_talents()` returns; no count is hardcoded in the app). This works under the
+> assumption that a solo agency's roster is on the order of dozens of talents (the demo data
+> seeds 50), small enough to fit in the model's context window. That assumption, not a magic
+> number, is what makes selection in-context ranking rather than RAG; a roster in the thousands
+> would cross the threshold where retrieval becomes necessary.
 
 **#2 is supplementary, with graceful degradation.** Proof-points returned give an evidence-backed
 pitch (*"Léa's zero-waste set shows…"*). Empty gives an affinity pitch (*"Léa is an outspoken
@@ -124,7 +131,7 @@ draft -> send -> capture outcome -> write to experiential memory -> sharpens the
 Both RAG uses are justified by the same rule, **large corpus + fuzzy match**: experiential
 memory grows unbounded and "similar situation" is inherently fuzzy; talent archives run to
 hundreds of items and "relevant to this angle" is semantic. RAG is deliberately **not** used
-for talent *selection* (50 bios fit in context) or account history (exact lookup). Brand
+for talent *selection* (the roster fits in context) or account history (exact lookup). Brand
 research is done **live, just-in-time**, never cached or indexed, since brand facts go stale.
 Cold-start for #1 is solved by seeding the founder's own landed pitches at onboarding.
 
@@ -142,7 +149,7 @@ flowchart TD
     prequal -->|maybe| research
     research[Live research<br/>just-in-time · LCEL] --> qualify{Full fit-score}
     qualify -->|below threshold| drop
-    qualify -->|qualified| select[Select talent<br/>in-context · all 50<br/>demonstrated + affinity fit]
+    qualify -->|qualified| select[Select talent<br/>in-context · whole roster<br/>demonstrated + affinity fit]
     select --> proof[Retrieve proof-points #2<br/>scoped to chosen talent]
     proof --> draft[Draft pitch<br/>+ account brief DB<br/>+ experiential RAG #1<br/>+ proof-points #2]
     draft --> critique{Critique:<br/>voice · deliverability · no fabricated proof}
@@ -163,9 +170,9 @@ flowchart TD
   plain LCEL. Wrapping a chain in a graph framework is an anti-pattern.
 - **Qualify before expensive research:** a cheap pre-filter drops obvious misses *before* the
   costly web-research step, instead of researching everyone and discarding later.
-- **Follow-ups are pre-approved as a sequence**, so the founder isn't asked to approve
-  200 emails (50 leads x 4 touches). Human attention is reserved for the first touch and for
-  real replies, where judgment actually matters.
+- **Follow-ups are pre-approved as a sequence**, so the founder isn't asked to approve a
+  separate email for every touch (e.g. 50 leads over 4 touches would be 200 approvals). Human
+  attention is reserved for the first touch and for real replies, where judgment actually matters.
 - **The cadence timer lives in Plane 2, not the graph.** A thread can't "sleep 5 days"
   holding resources; a worker scans `next_action_at` and resumes the checkpointed thread.
 
@@ -195,8 +202,9 @@ The interesting part of this repo is *what was deliberately left out*:
 
 - **LangGraph only where state is real:** loop, interrupt, cadence. Linear enrichment is LCEL.
 - **RAG only where the corpus is large *and* the match is fuzzy:** experiential memory (#1)
-  and talent proof-points (#2), yes; talent *selection* (50 bios) and account history (exact
-  lookup), no. Proof-points are supplementary and degrade gracefully to affinity.
+  and talent proof-points (#2), yes; talent *selection* (a roster that fits in context) and
+  account history (exact lookup), no. Proof-points are supplementary and degrade gracefully to
+  affinity.
 - **Right mechanism per grounding source:** in-context ranking for selection, exact lookup +
   running brief for account memory, semantic RAG for the two large/fuzzy corpora; never one
   hammer for every nail.
@@ -239,9 +247,9 @@ production deployment must handle, documented rather than hand-waved.
   manual labels in the digest.
 - **Secret management.** Gmail OAuth refresh tokens are long-lived secrets; production needs
   encrypted-at-rest storage / a KMS. The local build keeps them in env/local only.
-- **Cost & caching.** A 50-lead campaign with a critique loop is hundreds of LLM calls. The
-  static prefix (brand-voice system prompt + few-shot block) should use prompt caching, and
-  campaigns should carry a per-run budget guardrail.
+- **Cost & caching.** A campaign of dozens of leads (e.g. 50) with a critique loop is hundreds
+  of LLM calls. The static prefix (brand-voice system prompt + few-shot block) should use prompt
+  caching, and campaigns should carry a per-run budget guardrail.
 - **Negotiation is out of scope, by design.** The reply node triages and escalates at *"they're
   interested"*, and does not negotiate rates, exclusivity, or terms. A downstream deal-desk /
   objection-handling agent (with its own contract/rate knowledge base, e.g. a CUAD-style legal
