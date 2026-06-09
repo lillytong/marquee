@@ -1,0 +1,9 @@
+You score how well a brand fits a talent-agency outreach campaign.
+
+Campaign brief: {brief}
+Brand: {brand_name} ({brand_industry})
+Brand pillars: {brand_pillars}
+Research signals: {research_signals}
+
+Return a fit score from 0.0 to 1.0 (1.0 = an excellent fit for this brief) and a one-sentence
+rationale grounded in the brief and the brand's pillars.

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "p00",
+    "brand_name": "Rimowa",
+    "brand_industry": "travel goods",
+    "talent_name": "Wen Fontaine",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Rimowa — Wen Fontaine",
+    "body": "Hi — I saw Rimowa leaning into German engineering. Wen Fontaine, a ceramicist we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p01",
+    "brand_name": "Rimowa",
+    "brand_industry": "travel goods",
+    "talent_name": "Kenji Moreau",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Rimowa — Kenji Moreau",
+    "body": "Hi — I saw Rimowa leaning into German engineering. Kenji Moreau, a perfumer we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "ignored"
+  },
+  {
+    "id": "p02",
+    "brand_name": "Ruinart",
+    "brand_industry": "champagne",
+    "talent_name": "Salima Reyes",
+    "angle": "zero-waste — circular materials and low-impact production",
+    "subject": "A zero-waste moment for Ruinart — Salima Reyes",
+    "body": "Hi — I saw Ruinart leaning into maison heritage. Salima Reyes, a ceramicist we represent, works at exactly that intersection: circular materials and low-impact production. For an upcoming moment I'd propose a collaboration that brings zero-waste energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  },
+  {
+    "id": "p03",
+    "brand_name": "Airbnb",
+    "brand_industry": "travel",
+    "talent_name": "Salima Eriksson",
+    "angle": "community-led — grassroots community building",
+    "subject": "A community-led moment for Airbnb — Salima Eriksson",
+    "body": "Hi — I saw Airbnb leaning into belonging anywhere. Salima Eriksson, a ceramicist we represent, works at exactly that intersection: grassroots community building. For an upcoming moment I'd propose a collaboration that brings community-led energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p04",
+    "brand_name": "L'Oréal",
+    "brand_industry": "beauty",
+    "talent_name": "Amara Bauer",
+    "angle": "zero-waste — circular materials and low-impact production",
+    "subject": "A zero-waste moment for L'Oréal — Amara Bauer",
+    "body": "Hi — I saw L'Oréal leaning into sustainability (L'Oréal for the Future). Amara Bauer, a photographer we represent, works at exactly that intersection: circular materials and low-impact production. For an upcoming moment I'd propose a collaboration that brings zero-waste energy to your audience. Open to sharing a short deck?",
+    "outcome": "meeting"
+  },
+  {
+    "id": "p05",
+    "brand_name": "Veja",
+    "brand_industry": "footwear",
+    "talent_name": "Pablo Yamamoto",
+    "angle": "zero-waste — circular materials and low-impact production",
+    "subject": "A zero-waste moment for Veja — Pablo Yamamoto",
+    "body": "Hi — I saw Veja leaning into sustainability. Pablo Yamamoto, a DJ/producer we represent, works at exactly that intersection: circular materials and low-impact production. For an upcoming moment I'd propose a collaboration that brings zero-waste energy to your audience. Open to sharing a short deck?",
+    "outcome": "meeting"
+  },
+  {
+    "id": "p06",
+    "brand_name": "Airbnb",
+    "brand_industry": "travel",
+    "talent_name": "Dao Garnier",
+    "angle": "community-led — grassroots community building",
+    "subject": "A community-led moment for Airbnb — Dao Garnier",
+    "body": "Hi — I saw Airbnb leaning into belonging anywhere. Dao Garnier, a chef we represent, works at exactly that intersection: grassroots community building. For an upcoming moment I'd propose a collaboration that brings community-led energy to your audience. Open to sharing a short deck?",
+    "outcome": "meeting"
+  },
+  {
+    "id": "p07",
+    "brand_name": "Telfar",
+    "brand_industry": "fashion",
+    "talent_name": "Théo Lefebvre",
+    "angle": "community-led — grassroots community building",
+    "subject": "A community-led moment for Telfar — Théo Lefebvre",
+    "body": "Hi — I saw Telfar leaning into accessibility. Théo Lefebvre, a choreographer we represent, works at exactly that intersection: grassroots community building. For an upcoming moment I'd propose a collaboration that brings community-led energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p08",
+    "brand_name": "Nike",
+    "brand_industry": "sportswear",
+    "talent_name": "Salima Eriksson",
+    "angle": "gen-z — youth culture and subculture",
+    "subject": "A gen-z moment for Nike — Salima Eriksson",
+    "body": "Hi — I saw Nike leaning into elite performance. Salima Eriksson, a ceramicist we represent, works at exactly that intersection: youth culture and subculture. For an upcoming moment I'd propose a collaboration that brings gen-z energy to your audience. Open to sharing a short deck?",
+    "outcome": "ignored"
+  },
+  {
+    "id": "p09",
+    "brand_name": "Moncler",
+    "brand_industry": "luxury fashion",
+    "talent_name": "Nadia Ben Ali",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Moncler — Nadia Ben Ali",
+    "body": "Hi — I saw Moncler leaning into alpine heritage. Nadia Ben Ali, a DJ/producer we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "ignored"
+  },
+  {
+    "id": "p10",
+    "brand_name": "Telfar",
+    "brand_industry": "fashion",
+    "talent_name": "Rami Lindqvist",
+    "angle": "community-led — grassroots community building",
+    "subject": "A community-led moment for Telfar — Rami Lindqvist",
+    "body": "Hi — I saw Telfar leaning into accessibility. Rami Lindqvist, a illustrator we represent, works at exactly that intersection: grassroots community building. For an upcoming moment I'd propose a collaboration that brings community-led energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p11",
+    "brand_name": "Rimowa",
+    "brand_industry": "travel goods",
+    "talent_name": "Kenji Moreau",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Rimowa — Kenji Moreau",
+    "body": "Hi — I saw Rimowa leaning into German engineering. Kenji Moreau, a perfumer we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "ignored"
+  },
+  {
+    "id": "p12",
+    "brand_name": "Rimowa",
+    "brand_industry": "travel goods",
+    "talent_name": "Dao Novak",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Rimowa — Dao Novak",
+    "body": "Hi — I saw Rimowa leaning into German engineering. Dao Novak, a chef we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  },
+  {
+    "id": "p13",
+    "brand_name": "Glossier",
+    "brand_industry": "beauty",
+    "talent_name": "Tariq Eriksson",
+    "angle": "inclusive — representation and inclusive casting",
+    "subject": "A inclusive moment for Glossier — Tariq Eriksson",
+    "body": "Hi — I saw Glossier leaning into community-led beauty. Tariq Eriksson, a fashion designer we represent, works at exactly that intersection: representation and inclusive casting. For an upcoming moment I'd propose a collaboration that brings inclusive energy to your audience. Open to sharing a short deck?",
+    "outcome": "ignored"
+  },
+  {
+    "id": "p14",
+    "brand_name": "Airbnb",
+    "brand_industry": "travel",
+    "talent_name": "Mei Achebe",
+    "angle": "community-led — grassroots community building",
+    "subject": "A community-led moment for Airbnb — Mei Achebe",
+    "body": "Hi — I saw Airbnb leaning into belonging anywhere. Mei Achebe, a filmmaker we represent, works at exactly that intersection: grassroots community building. For an upcoming moment I'd propose a collaboration that brings community-led energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p15",
+    "brand_name": "L'Oréal",
+    "brand_industry": "beauty",
+    "talent_name": "Sienna Kim",
+    "angle": "zero-waste — circular materials and low-impact production",
+    "subject": "A zero-waste moment for L'Oréal — Sienna Kim",
+    "body": "Hi — I saw L'Oréal leaning into sustainability (L'Oréal for the Future). Sienna Kim, a ceramicist we represent, works at exactly that intersection: circular materials and low-impact production. For an upcoming moment I'd propose a collaboration that brings zero-waste energy to your audience. Open to sharing a short deck?",
+    "outcome": "meeting"
+  },
+  {
+    "id": "p16",
+    "brand_name": "Ruinart",
+    "brand_industry": "champagne",
+    "talent_name": "Mateo Park",
+    "angle": "zero-waste — circular materials and low-impact production",
+    "subject": "A zero-waste moment for Ruinart — Mateo Park",
+    "body": "Hi — I saw Ruinart leaning into maison heritage. Mateo Park, a illustrator we represent, works at exactly that intersection: circular materials and low-impact production. For an upcoming moment I'd propose a collaboration that brings zero-waste energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  },
+  {
+    "id": "p17",
+    "brand_name": "Rimowa",
+    "brand_industry": "travel goods",
+    "talent_name": "Suki Achebe",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Rimowa — Suki Achebe",
+    "body": "Hi — I saw Rimowa leaning into German engineering. Suki Achebe, a fashion designer we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "ignored"
+  },
+  {
+    "id": "p18",
+    "brand_name": "Patagonia",
+    "brand_industry": "apparel",
+    "talent_name": "Fatou Bouchard",
+    "angle": "circular — circular design and reuse",
+    "subject": "A circular moment for Patagonia — Fatou Bouchard",
+    "body": "Hi — I saw Patagonia leaning into environmental activism. Fatou Bouchard, a chef we represent, works at exactly that intersection: circular design and reuse. For an upcoming moment I'd propose a collaboration that brings circular energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  },
+  {
+    "id": "p19",
+    "brand_name": "Airbnb",
+    "brand_industry": "travel",
+    "talent_name": "Bo Bouchard",
+    "angle": "community-led — grassroots community building",
+    "subject": "A community-led moment for Airbnb — Bo Bouchard",
+    "body": "Hi — I saw Airbnb leaning into belonging anywhere. Bo Bouchard, a photographer we represent, works at exactly that intersection: grassroots community building. For an upcoming moment I'd propose a collaboration that brings community-led energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  },
+  {
+    "id": "p20",
+    "brand_name": "Diptyque",
+    "brand_industry": "fragrance",
+    "talent_name": "Mei Achebe",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Diptyque — Mei Achebe",
+    "body": "Hi — I saw Diptyque leaning into Parisian heritage. Mei Achebe, a filmmaker we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p21",
+    "brand_name": "Spotify",
+    "brand_industry": "music tech",
+    "talent_name": "Tariq Eriksson",
+    "angle": "zero-waste — circular materials and low-impact production",
+    "subject": "A zero-waste moment for Spotify — Tariq Eriksson",
+    "body": "Hi — I saw Spotify leaning into music culture. Tariq Eriksson, a fashion designer we represent, works at exactly that intersection: circular materials and low-impact production. For an upcoming moment I'd propose a collaboration that brings zero-waste energy to your audience. Open to sharing a short deck?",
+    "outcome": "meeting"
+  },
+  {
+    "id": "p22",
+    "brand_name": "Airbnb",
+    "brand_industry": "travel",
+    "talent_name": "Ander Khan",
+    "angle": "community-led — grassroots community building",
+    "subject": "A community-led moment for Airbnb — Ander Khan",
+    "body": "Hi — I saw Airbnb leaning into belonging anywhere. Ander Khan, a perfumer we represent, works at exactly that intersection: grassroots community building. For an upcoming moment I'd propose a collaboration that brings community-led energy to your audience. Open to sharing a short deck?",
+    "outcome": "meeting"
+  },
+  {
+    "id": "p23",
+    "brand_name": "Moncler",
+    "brand_industry": "luxury fashion",
+    "talent_name": "Bo Diallo",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Moncler — Bo Diallo",
+    "body": "Hi — I saw Moncler leaning into alpine heritage. Bo Diallo, a florist we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p24",
+    "brand_name": "Diptyque",
+    "brand_industry": "fragrance",
+    "talent_name": "Anouk Adeyemi",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Diptyque — Anouk Adeyemi",
+    "body": "Hi — I saw Diptyque leaning into Parisian heritage. Anouk Adeyemi, a illustrator we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "ignored"
+  },
+  {
+    "id": "p25",
+    "brand_name": "On",
+    "brand_industry": "sportswear",
+    "talent_name": "Dimitri Bouchard",
+    "angle": "kinetic — movement, sport and the body",
+    "subject": "A kinetic moment for On — Dimitri Bouchard",
+    "body": "Hi — I saw On leaning into Swiss engineering. Dimitri Bouchard, a visual artist we represent, works at exactly that intersection: movement, sport and the body. For an upcoming moment I'd propose a collaboration that brings kinetic energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  },
+  {
+    "id": "p26",
+    "brand_name": "Spotify",
+    "brand_industry": "music tech",
+    "talent_name": "Lila Da Silva",
+    "angle": "zero-waste — circular materials and low-impact production",
+    "subject": "A zero-waste moment for Spotify — Lila Da Silva",
+    "body": "Hi — I saw Spotify leaning into music culture. Lila Da Silva, a photographer we represent, works at exactly that intersection: circular materials and low-impact production. For an upcoming moment I'd propose a collaboration that brings zero-waste energy to your audience. Open to sharing a short deck?",
+    "outcome": "meeting"
+  },
+  {
+    "id": "p27",
+    "brand_name": "Glossier",
+    "brand_industry": "beauty",
+    "talent_name": "Yara Wong",
+    "angle": "inclusive — representation and inclusive casting",
+    "subject": "A inclusive moment for Glossier — Yara Wong",
+    "body": "Hi — I saw Glossier leaning into community-led beauty. Yara Wong, a chef we represent, works at exactly that intersection: representation and inclusive casting. For an upcoming moment I'd propose a collaboration that brings inclusive energy to your audience. Open to sharing a short deck?",
+    "outcome": "booked"
+  },
+  {
+    "id": "p28",
+    "brand_name": "Hermès",
+    "brand_industry": "luxury",
+    "talent_name": "Lila Da Silva",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Hermès — Lila Da Silva",
+    "body": "Hi — I saw Hermès leaning into heritage craftsmanship. Lila Da Silva, a photographer we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  },
+  {
+    "id": "p29",
+    "brand_name": "Moncler",
+    "brand_industry": "luxury fashion",
+    "talent_name": "Salima Mensah",
+    "angle": "heritage — traditional craft reinterpreted for today",
+    "subject": "A heritage moment for Moncler — Salima Mensah",
+    "body": "Hi — I saw Moncler leaning into alpine heritage. Salima Mensah, a fashion designer we represent, works at exactly that intersection: traditional craft reinterpreted for today. For an upcoming moment I'd propose a collaboration that brings heritage energy to your audience. Open to sharing a short deck?",
+    "outcome": "replied"
+  }
+]

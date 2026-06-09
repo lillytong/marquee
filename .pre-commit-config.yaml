@@ -1,0 +1,30 @@
+# Local gate. Install once:  uv run pre-commit install --hook-type pre-commit --hook-type pre-push
+# Fast checks run on every commit; the test suite runs on push.
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff check
+        entry: uv run ruff check
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: ruff-format
+        name: ruff format (check)
+        entry: uv run ruff format --check
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: mypy
+        name: mypy (strict)
+        entry: uv run mypy .
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: pytest
+        name: pytest (offline, no live LLM)
+        entry: uv run pytest
+        language: system
+        types: [python]
+        pass_filenames: false
+        stages: [pre-push]

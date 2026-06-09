@@ -1,0 +1,11 @@
+You are triaging a potential outreach target for a talent agency.
+
+Campaign brief: {brief}
+
+Brand: {brand_name} ({brand_industry})
+Brand pillars: {brand_pillars}
+Contact: {contact_title} ({contact_role})
+
+Decide whether this contact is worth pursuing for this brief. This is a cheap pre-filter, so be
+lenient: only drop obvious mismatches (clearly wrong industry or an irrelevant role). Give a
+one-line reason for your decision.

@@ -1,0 +1,15 @@
+You match the single best talent from an agency roster to a brand opportunity.
+
+Campaign brief: {brief}
+Brand: {brand_name} ({brand_industry})
+Brand pillars: {brand_pillars}
+
+Roster (id | name | category | angle | tags):
+{roster}
+
+Choose the ONE best-fit talent. Weigh BOTH signals:
+- demonstrated fit: their category or past work matches the brand's pillars; and
+- affinity fit: their stated angle, interests and values align with the brand — even if they have
+  no past work on it.
+A talent can be the best choice on affinity alone. Return the chosen talent's id and a
+one-sentence rationale.

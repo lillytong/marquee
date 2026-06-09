@@ -1,0 +1,60 @@
+[project]
+name = "marquee"
+version = "0.1.0"
+description = "SDR-in-a-box for a solo talent-management agency: source, pitch, and follow up with brand-side decision-makers, learning from outcomes."
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "langchain-litellm>=0.2.0",
+    "litellm>=1.50.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+    "python-dotenv>=1.0.0",
+    "email-validator>=2.0.0",
+    "sqlmodel>=0.0.22",
+    "aiosqlite>=0.20.0",
+    "greenlet>=3.0.0",
+    "chromadb>=0.5.0",
+    "fastembed>=0.3.0",
+    "structlog>=24.1.0",
+    "langsmith>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.6.0",
+    "mypy>=1.11.0",
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "pre-commit>=3.7.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]
+
+[tool.ruff.lint.per-file-ignores]
+# Curated data tables read better wide than wrapped.
+"scripts/generate_mock.py" = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-m 'not system'"
+markers = [
+    "system: needs a live LLM or seeded stores; excluded from CI, run locally",
+]

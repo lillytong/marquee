@@ -1,0 +1,22 @@
+You are a strict editor reviewing a cold outreach pitch before it is sent to a real brand contact.
+
+Brand voice it must follow:
+{brand_voice}
+
+Proof points the draft was allowed to reference (these are REAL — describing any of them, in prose
+or otherwise, is NOT fabrication):
+{allowed_proof_points}
+
+Draft subject: {subject}
+Draft body:
+{body}
+
+Evaluate:
+1. Does it follow the brand voice?
+2. Is it specific and concrete, not generic or fawning?
+3. CRITICAL: does it reference a specific past work, project, or achievement that does NOT
+   correspond to any allowed proof point above? Such fabrication is an automatic fail, regardless
+   of quality. (Describing an allowed proof point in prose is fine.)
+
+Return passed (bool), a score from 0.0 to 1.0, and a list of concrete issues to fix (empty when
+it passes).

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "c000",
+    "brand_id": "b00",
+    "name": "Jun Bauer",
+    "title": "VP, Marketing",
+    "role_type": "cmo",
+    "email": "jun.bauer@example.com"
+  },
+  {
+    "id": "c001",
+    "brand_id": "b01",
+    "name": "Sacha Ferrari",
+    "title": "Brand Manager",
+    "role_type": "brand_manager",
+    "email": "sacha.ferrari@example.com"
+  },
+  {
+    "id": "c002",
+    "brand_id": "b02",
+    "name": "Marco Mercier",
+    "title": "Senior Brand Manager",
+    "role_type": "brand_manager",
+    "email": "marco.mercier@example.com"
+  },
+  {
+    "id": "c003",
+    "brand_id": "b03",
+    "name": "Léa Garnier",
+    "title": "Brand Manager",
+    "role_type": "brand_manager",
+    "email": "léa.garnier@example.com"
+  },
+  {
+    "id": "c004",
+    "brand_id": "b04",
+    "name": "Yara Khan",
+    "title": "Events & Experiences Lead",
+    "role_type": "events",
+    "email": "yara.khan@example.com"
+  },
+  {
+    "id": "c005",
+    "brand_id": "b05",
+    "name": "Anouk Choi",
+    "title": "Events & Experiences Lead",
+    "role_type": "events",
+    "email": "anouk.choi@example.com"
+  },
+  {
+    "id": "c006",
+    "brand_id": "b06",
+    "name": "Ander Nakamura",
+    "title": "Head of Communications",
+    "role_type": "comms_pr",
+    "email": "ander.nakamura@example.com"
+  },
+  {
+    "id": "c007",
+    "brand_id": "b06",
+    "name": "Talia Garnier",
+    "title": "Brand Manager",
+    "role_type": "brand_manager",
+    "email": "talia.garnier@example.com"
+  },
+  {
+    "id": "c008",
+    "brand_id": "b07",
+    "name": "Omar Santos",
+    "title": "Events & Experiences Lead",
+    "role_type": "events",
+    "email": "omar.santos@example.com"
+  },
+  {
+    "id": "c009",
+    "brand_id": "b07",
+    "name": "Inès Bianchi",
+    "title": "Senior Brand Manager",
+    "role_type": "brand_manager",
+    "email": "inès.bianchi@example.com"
+  },
+  {
+    "id": "c010",
+    "brand_id": "b08",
+    "name": "Yara Olsen",
+    "title": "Partnerships Manager",
+    "role_type": "partnerships",
+    "email": "yara.olsen@example.com"
+  },
+  {
+    "id": "c011",
+    "brand_id": "b08",
+    "name": "Noor Kim",
+    "title": "Brand Partnerships Lead",
+    "role_type": "partnerships",
+    "email": "noor.kim@example.com"
+  },
+  {
+    "id": "c012",
+    "brand_id": "b09",
+    "name": "Diego Bouchard",
+    "title": "Communications Manager",
+    "role_type": "comms_pr",
+    "email": "diego.bouchard@example.com"
+  },
+  {
+    "id": "c013",
+    "brand_id": "b09",
+    "name": "Priya Laurent",
+    "title": "Partnerships Manager",
+    "role_type": "partnerships",
+    "email": "priya.laurent@example.com"
+  },
+  {
+    "id": "c014",
+    "brand_id": "b10",
+    "name": "Yara Moreau",
+    "title": "Head of Events",
+    "role_type": "events",
+    "email": "yara.moreau@example.com"
+  },
+  {
+    "id": "c015",
+    "brand_id": "b11",
+    "name": "Wen Rossi",
+    "title": "Events & Experiences Lead",
+    "role_type": "events",
+    "email": "wen.rossi@example.com"
+  },
+  {
+    "id": "c016",
+    "brand_id": "b11",
+    "name": "Ousmane Da Silva",
+    "title": "Brand Partnerships Lead",
+    "role_type": "partnerships",
+    "email": "ousmane.dasilva@example.com"
+  },
+  {
+    "id": "c017",
+    "brand_id": "b12",
+    "name": "Mina Fontaine",
+    "title": "Head of Communications",
+    "role_type": "comms_pr",
+    "email": "mina.fontaine@example.com"
+  },
+  {
+    "id": "c018",
+    "brand_id": "b12",
+    "name": "Zaid Lindqvist",
+    "title": "VP, Marketing",
+    "role_type": "cmo",
+    "email": "zaid.lindqvist@example.com"
+  },
+  {
+    "id": "c019",
+    "brand_id": "b13",
+    "name": "Yara Laurent",
+    "title": "Head of Events",
+    "role_type": "events",
+    "email": "yara.laurent@example.com"
+  },
+  {
+    "id": "c020",
+    "brand_id": "b14",
+    "name": "Mei Yamamoto",
+    "title": "VP, Marketing",
+    "role_type": "cmo",
+    "email": "mei.yamamoto@example.com"
+  },
+  {
+    "id": "c021",
+    "brand_id": "b14",
+    "name": "Ander Da Silva",
+    "title": "Brand Manager",
+    "role_type": "brand_manager",
+    "email": "ander.dasilva@example.com"
+  }
+]

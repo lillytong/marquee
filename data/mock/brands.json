@@ -1,0 +1,167 @@
+[
+  {
+    "id": "b00",
+    "name": "L'Oréal",
+    "industry": "beauty",
+    "pillars": [
+      "sustainability (L'Oréal for the Future)",
+      "inclusive beauty",
+      "science-led innovation"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b01",
+    "name": "Aesop",
+    "industry": "beauty",
+    "pillars": [
+      "considered design",
+      "sensory retail",
+      "arts patronage"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b02",
+    "name": "Veja",
+    "industry": "footwear",
+    "pillars": [
+      "sustainability",
+      "supply-chain transparency",
+      "fair-trade materials"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b03",
+    "name": "Patagonia",
+    "industry": "apparel",
+    "pillars": [
+      "environmental activism",
+      "circularity",
+      "repair over replace"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b04",
+    "name": "Glossier",
+    "industry": "beauty",
+    "pillars": [
+      "community-led beauty",
+      "inclusivity",
+      "digital-native brand"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b05",
+    "name": "Hermès",
+    "industry": "luxury",
+    "pillars": [
+      "heritage craftsmanship",
+      "quiet luxury",
+      "artisanal savoir-faire"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b06",
+    "name": "Nike",
+    "industry": "sportswear",
+    "pillars": [
+      "elite performance",
+      "youth culture",
+      "inclusive sport"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b07",
+    "name": "On",
+    "industry": "sportswear",
+    "pillars": [
+      "Swiss engineering",
+      "sustainable performance",
+      "movement culture"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b08",
+    "name": "Spotify",
+    "industry": "music tech",
+    "pillars": [
+      "music culture",
+      "creator economy",
+      "global discovery"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b09",
+    "name": "Airbnb",
+    "industry": "travel",
+    "pillars": [
+      "belonging anywhere",
+      "local community",
+      "design-led travel"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b10",
+    "name": "Diptyque",
+    "industry": "fragrance",
+    "pillars": [
+      "Parisian heritage",
+      "artisanal scent",
+      "arts collaboration"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b11",
+    "name": "Moncler",
+    "industry": "luxury fashion",
+    "pillars": [
+      "alpine heritage",
+      "art collaborations",
+      "craftsmanship"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b12",
+    "name": "Telfar",
+    "industry": "fashion",
+    "pillars": [
+      "accessibility",
+      "community",
+      "inclusive luxury"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b13",
+    "name": "Rimowa",
+    "industry": "travel goods",
+    "pillars": [
+      "German engineering",
+      "durability",
+      "heritage design"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "b14",
+    "name": "Ruinart",
+    "industry": "champagne",
+    "pillars": [
+      "maison heritage",
+      "art de vivre",
+      "sustainability"
+    ],
+    "notes": ""
+  }
+]

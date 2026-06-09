@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Env / secrets
+.env
+.env.local
+
+# Local data stores (seeded, not committed)
+*.db
+*.sqlite
+*.sqlite3
+.chroma/
+data/*/.chroma/
+
+# OS
+.DS_Store
